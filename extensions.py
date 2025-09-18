@@ -1,5 +1,4 @@
 from flask_sqlalchemy import SQLAlchemy
-from flask_restful import Api
 
+# Create database instance
 db = SQLAlchemy()
-api = Api()
